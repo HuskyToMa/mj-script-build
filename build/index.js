@@ -1,9 +1,9 @@
 // const buildConfig = require('./webpack/webpack.pro.conf');
 const fs = require('fs');
-const configFactory = require('../config/webpack.config');
+const configFactory = require('mj-config/webpack.config');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const webpack = require('webpack');
-const { DIR, sourceDIR } = require('../config/static')
+const { DIR, sourceDIR } = require('mj-config/static')
 const merge = require('webpack-merge');
 const chalk = require('chalk');
 

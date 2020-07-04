@@ -1,6 +1,6 @@
 const http = require('http');
 const fs = require('fs');
-const { DIR } = require('../config/static');
+const { DIR } = require('mj-config/static');
 const ora = require('ora');
 const chalk = require('chalk');
 

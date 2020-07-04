@@ -1,5 +1,5 @@
 const webpack = require('webpack');
-const dllConfig = require('../config/webpack.dll.config');
+const dllConfig = require('mj-config/webpack.dll.config');
 
 module.exports = function() {
     webpack(dllConfig, (err, stats) => {
