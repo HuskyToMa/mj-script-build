@@ -1,0 +1,12 @@
+.history/
+node_modules/
+dist/
+.DS_Store
+package-lock.json
+react/dist
+react/lib
+react/node_modules
+cli/localCache/cache.json
+
+pluginsZip
+temp
