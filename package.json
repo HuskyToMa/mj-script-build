@@ -1,6 +1,6 @@
 {
   "name": "mj-script-build",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "脚手架下载工具",
   "main": "index.js",
   "keywords": [
